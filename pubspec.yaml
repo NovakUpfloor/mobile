@@ -1,0 +1,97 @@
+
+
+
+name: waisaka_property
+description: Mobile application for Waisaka Property with AI Voice Assistant
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  
+# Firebase
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.2
+  google_sign_in: ^6.2.1
+
+  # Core UI & Utilities
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Network & API
+  dio: ^5.7.0
+  http: ^1.2.2
+  connectivity_plus: ^6.1.0
+  
+  # Storage
+  shared_preferences: ^2.3.3
+  flutter_secure_storage: ^9.2.2
+  
+  # Image & Media
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  carousel_slider: ^5.0.0
+  photo_view: ^0.15.0
+  
+  # Location
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.9.0
+  
+  # AI & Voice
+  google_generative_ai: ^0.4.6
+  speech_to_text: ^7.2.0
+  flutter_tts: ^4.2.0
+  permission_handler: ^11.3.1
+  
+  # Social Sharing
+  share_plus: ^11.1.0
+  url_launcher: ^6.3.1
+  
+  # UI Components
+  shimmer: ^3.0.0
+  flutter_spinkit: ^5.2.1
+  flutter_slidable: ^3.1.1
+  badges: ^3.1.2
+  flutter_rating_bar: ^4.0.1
+  
+  # Form & Validation
+  flutter_form_builder: ^10.1.0
+  form_builder_validators: ^11.0.0
+  
+  # Date & Time
+  intl: ^0.20.2
+  timeago: ^3.7.0
+  
+  # Others
+  path_provider: ^2.1.5
+  flutter_dotenv: ^5.2.1
+  equatable: ^2.0.7
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.8.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter:
+  
+  uses-material-design: true
+
+  # Daftarkan semua aset Anda di sini.
+  # Pastikan lokasinya benar (di dalam `flutter`, bukan `dev_dependencies`)
+  assets:
+    - .env
